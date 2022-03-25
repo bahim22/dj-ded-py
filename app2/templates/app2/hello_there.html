@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello there</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{% static 'app2/styles.css' %}" />
+    </head>
+    <body>
+        <p class="main">
+            <span class='message'> Hello, {{ name }}
+            </span> It's {{ date | date:"l, d F, Y" }} at {{ date | time:"H:i:s" }}
+        </p>
+        {% comment %} <script src="" async defer></script> {% endcomment %}
+    </body>
+</html>
