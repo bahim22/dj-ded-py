@@ -68,18 +68,3 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
-      
-      
-    - name: Django Security Check
-      uses: victoriadrake/django-security-check@v1.1.0
-      
-    - name: Unit Testing With Python
-      uses: PrajjawalBanati/Python-actions@0.0.1
-  #   with:
-  #   src: # optional
-  # You may pin to the exact commit or the version.# Always push your code and test case file as name.py and test_name.py
-  # uses: victoriadrake/django-security-check@762dd0ab80194dbded70117daa32bd7d139c6a04
-   
-    # You may pin to the exact commit or the version.
-  # uses: PrajjawalBanati/Python-actions@a6d7420add2bf83557fec5ddf443f24f27e661fc
-    
