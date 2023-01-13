@@ -9,8 +9,9 @@ projects = input("Project Name: ")
 contactInfo = input("Email: ")
 
 
-madLib = f"Learning Python is {verb1}! I've been studying for {time1}.  \
-I have also been practicing {language1}. Follow the links to view my {siteList}. \
+madLib = f"Learning Python is {verb1}! I've been studying for {time1}. \
+I have also been practicing {language1}. \
+Follow the links to view my {siteList}. \
 Find my {projects} on GitHub and contact me for more information {contactInfo}"
 
 print(madLib)
@@ -22,5 +23,7 @@ Adjective: challenging
 Verb: code
 Verb: repositories
 Project Name: react, django
-Cumputer programming is so challenging! It's exciting I love to code. Find my repositories on GitHub and view my current sites react, django.
+Cumputer programming is so challenging! \
+It's exciting I love to code. Find my repositories \
+    on GitHub and view my current sites react, django.
 """
